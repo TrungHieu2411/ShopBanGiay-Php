@@ -1,0 +1,40 @@
+Adidas:
+Adidas Custom Painted
+35
+
+Adidas Adizero Boston
+37
+
+Adidas NMD R1
+34
+
+Adidas Zx Flux 
+40
+
+-----
+Nike:
+Nike Flyknit Max Black
+38
+
+Nike Go Flyeas
+41
+
+Nike React Infinity
+36
+
+Nike SB Palmer
+34
+
+-----
+Yeezy:
+Yeezy Boost 350 V2
+36
+
+Yeezy Boost 350 V2 Beluga
+35
+
+Yeezy Boost 700 V2 Tephra
+39
+
+Yeezy Boost V2 Inertia
+32
