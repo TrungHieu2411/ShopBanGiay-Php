@@ -3,7 +3,6 @@
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 
-// Route::middleware('guest')->group(function () {
 Route::get('/', 'App\Http\Controllers\HomeController@index')->name("home.index");
 
 Route::get('/abouts', 'App\Http\Controllers\AboutController@index')->name("about.index");
@@ -17,8 +16,6 @@ Route::get('/typepdts/{id}', 'App\Http\Controllers\TypeProductController@show')-
 Route::get('/cart', 'App\Http\Controllers\CartController@index')->name("cart.index");
 Route::get('/cart/delete', 'App\Http\Controllers\CartController@delete')->name("cart.delete");
 Route::post('/cart/add{id}', 'App\Http\Controllers\CartController@add')->name("cart.add");
-
-// });
 
 Route::middleware('auth')->group(function () {
     Route::get('/cart/purchase', 'App\Http\Controllers\CartController@purchase')->name("cart.purchase");
@@ -122,7 +119,6 @@ Route::put(
     'App\Http\Controllers\Admin\AdminAboutController@update'
 )
     ->name("admin.about.update");
-
 // });
 
 Auth::routes();

@@ -7,18 +7,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class Product extends Model
 {
-    // use HasFactory;x`
-    /**
-     * PRODUCT ATTRIBUTES
-     * $this->attributes['id'] - int - contains the product primary key (id)
-     * $this->attributes['name'] - string - contains the product name
-     * $this->attributes['description'] - string - contains the product description
-     * $this->attributes['image'] - string - contains the product image
-     * $this->attributes['price'] - int - contains the product price
-     * $this->attributes['created_at'] - timestamp - contains the product creation date
-     * $this->attributes['updated_at'] - timestamp - contains the product update date
-     * $this->typepdt - Typepdt - contains the associated Typepdt
-     */
+
     public static function validate($request)
     {
         $request->validate([

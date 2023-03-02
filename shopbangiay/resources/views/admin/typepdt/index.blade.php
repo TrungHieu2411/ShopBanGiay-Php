@@ -13,7 +13,7 @@
             @endforeach
         </ul>
         @endif
-        <fo rm method="POST" action="{{ route('admin.typepdt.store') }}" enctype="multipart/form-data">
+        <form method="POST" action="{{ route('admin.typepdt.store') }}" enctype="multipart/form-data">
             @csrf <!-- bảo vệ sự tấn công CSRF-->
             <!-- ---- -->
             <div class="row mb-3">
@@ -30,10 +30,10 @@
                 </div>
 
             </div>
-            </form>
-            <div class="mt-2">
-                <a href="{{ route('admin.product.index') }}" class="link-info text-decoration-none"><button class="btn btn-outline-danger form-control form-control-sm">Chuyển sang trang sản phẩm</button></a>
-            </div>
+        </form>
+        <div class="mt-2">
+            <a href="{{ route('admin.product.index') }}" class="link-info text-decoration-none"><button class="btn btn-outline-danger form-control form-control-sm">Chuyển sang trang sản phẩm</button></a>
+        </div>
     </div>
 </div>
 

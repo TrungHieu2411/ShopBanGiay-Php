@@ -35,7 +35,7 @@ class AdminProductController extends Controller
         $newProduct->setTypepdt($request->input('typepdt_id'));
         $newProduct->setSize($request->input('size'));
         $newProduct->setTrademark($request->input('trademark'));
-
+        $newProduct->save();
         //-----------------------------------
         if ($request->hasFile('image')) {
             $imageName = $newProduct->getId() . "." . $request->file('image')->extension();
@@ -46,7 +46,6 @@ class AdminProductController extends Controller
             $newProduct->setImage($imageName);
             $newProduct->save();
         }
-        $newProduct->save();
         return back();
     }
     public function delete($id)

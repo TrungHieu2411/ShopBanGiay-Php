@@ -39,14 +39,14 @@
             <div class="row mb-3">
                 <label class="col-lg-2 col-md-6 col-sm-12 col-form-label text-end" for="size"><i>Size:<span class="text-danger fw-bold">*</span></i></label>
                 <div class="col-lg-3 col-md-6 col-sm-12 text-start">
-                    <input name="size" value="{{ old('size') }}" type="number" class="form-control form-control-sm" placeholder="Nhập giá tiền" id="size">
+                    <input name="size" value="{{ old('size') }}" type="number" class="form-control form-control-sm" placeholder="Nhập kích cỡ" id="size">
                 </div>
             </div>
 
             <div class="row mb-3">
                 <label class="col-lg-2 col-md-6 col-sm-12 col-form-label text-end" for="price"><i>Trademark:<span class="text-danger fw-bold">*</span></i></label>
                 <div class="col-lg-3 col-md-6 col-sm-12 text-start">
-                    <input name="trademark" value="{{ old('trademark') }}" type="text" class="form-control form-control-sm" placeholder="Nhập giá tiền" id="trademark">
+                    <input name="trademark" value="{{ old('trademark') }}" type="text" class="form-control form-control-sm" placeholder="Nhập thương hiệu" id="trademark">
                 </div>
             </div>
 

@@ -14,7 +14,7 @@
     <nav class="navbar navbar-expand-lg navbar-dark bg-light py-2">
         <div class="container">
             <a class="navbar-brand fs-2" href="{{ route('home.index')}}">
-                <img src="{{ asset('/img/shoe-logo.png') }}" style="height: 100px; width: 225px;" class="img-fluid rounded">
+                <img src="{{ asset('/img/logo.jpg') }}" style="height: 100px; width: 225px;" class="img-fluid rounded">
             </a>
             <button class="navbar-toggler bg-black" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon bg-black"></span>
@@ -43,7 +43,7 @@
     </nav>
     <header class="masthead bg-info text-white text-center py-4">
         <div class="container d-flex bg-dark align-items-center flex-column shadow-lg opacity-75">
-            <h4><i>@yield('subtitle', '- “Không gì là không thể - Impossible is nothing” -')</i></h4>
+            <h4><i class="shadow-lg">@yield('subtitle', '- “Service what you deserves” -')</i></h4>
         </div>
     </header>
     <!-- header -->

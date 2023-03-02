@@ -6,17 +6,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class About extends Model
 {
-    /**
-     * ITEM ATTRIBUTES
-     * $this->attributes['id'] - int - contains the item primary key (id)
-     * $this->attributes['quantity'] - int - contains the item quantity
-     * $this->attributes['price'] - int - contains the item price
-     * $this->attributes['order_id'] - int - contains the referenced order id
-     * $this->attributes['product_id'] - int - contains the referenced product id
-     * $this->attributes['created_at'] - timestamp - contains the item creation date
-     * $this->attributes['updated_at'] - timestamp - contains the item update date
-     * $this->about - About - contains the associated About
-     */
+
     public static function validate($request)
     {
         $request->validate([

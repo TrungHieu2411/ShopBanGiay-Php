@@ -7,16 +7,6 @@ use Illuminate\Database\Eloquent\Model;
 
 class Typepdt extends Model
 {
-    // use HasFactory;x`
-    /**
-     * PRODUCT ATTRIBUTES
-     * $this->attributes['id'] - int - contains the product primary key (id)
-     * $this->attributes['type'] - string - contains the product type
-     * $this->attributes['size'] - string - contains the product size
-     * $this->attributes['trademark'] - string - contains the product trademark
-     * $this->attributes['created_at'] - timestamp - contains the product creation date
-     * $this->attributes['updated_at'] - timestamp - contains the product update date
-     */
 
     public function getId()
     {
